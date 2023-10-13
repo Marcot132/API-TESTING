@@ -1,0 +1,14 @@
+{
+    "interests": [
+        {"interest": "Música", "icon": "music_note"},
+        {"interest": "Software", "icon": "terminal"},
+        {"interest": "Mujeres", "icon": "woman"},
+        {"interest": "Video juegos", "icon": "videogame_asset"},
+        {"interest": "Autos", "icon": "directions_car"},
+        {"interest": "Películas", "icon": "theaters"},
+        {"interest": "Idiomas", "icon": "translate"},
+        {"interest": "Computación", "icon": "computer"},
+        {"interest": "Gym", "icon": "fitness_center"},
+        {"interest": "Guitarras", "icon": "music_note"}
+    ]
+}

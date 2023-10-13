@@ -1,0 +1,12 @@
+{
+  "name"  : "Sebastián Barragán",
+  "title"  : "Alumno de ingeniería de software",
+  "objetivo"  : "Ser project Manager",
+  "foto"   : "https://firebasestorage.googleapis.com/v0/b/fmclovin-mycv.appspot.com/o/foto.jpg?alt=media&token=faf234b4-d8fd-40a8-879d-959efaf9167f",
+  "social": {
+    "email": "barragan.palestino.sebastian@gmail.com",
+    "cel": "272 164 8282",
+    "city": "Nogales, Ver",
+    "linkedin": "Sebastian Barragan"
+  }
+}

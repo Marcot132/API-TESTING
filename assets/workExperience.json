@@ -1,0 +1,26 @@
+{
+    "work_experience": [
+        {
+            "title": "Desarrollador de software",
+            "company": "Sivat",
+            "from_date": "04/2019",
+            "to_date": "Presente",
+            "location": "Puebla, Pue.",
+            "accomplishments": [
+              "Aplicación móvil para Android y iOS lanzada exitósamente, una aplicación de botón de pánico para personas en peligro y permitirles ser auxiliadas por las autoridades de su comunidad.",
+              "Aplicación móvil para Android y iOS lanzada exitósamente, una aplicación para mexicanos en los Estados unidos con la cual pueden contactar con un abogado en la República Méxicana para poder tratar temas legales pendientes dentro del país, sin que tengan que estar presentes.",
+              "Aplicación web de monitoreo de alertas lanzadas por una aplicación de botón de pánico y de monitoreo de policias en tiempo real, además de permitir clasificación de las alertas según el catálogo Nacional de Alertas."
+            ]
+        },
+        {
+            "title": "Administrador de proyectos",
+            "company": "Universidad Veracruzana",
+            "from_date": "02/2023",
+            "to_date": "05/2023",
+            "location": "Orizaba, Ver.",
+            "accomplishments": [
+              "Gestión del desarrollo de un proyecto de software, como proyecto universitario, una aplicación web y móvil de gestión de gimnasios para Administradores y clientes."
+            ]
+        }
+    ]
+}

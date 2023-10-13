@@ -1,0 +1,36 @@
+#manifest
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api2023-deployment
+spec:
+  selector:
+    matchLabels:
+      app: api2023-server
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: api2023-server
+    spec:
+      containers:
+      - name: api2023-container
+        #image: gcr.io/tensorflow-serving/resnet 
+        image:  docker.io/fmclovin/node-api2023:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    run: api2023-service
+  name: api2023-service
+spec:
+  ports:
+  - port: 8080
+    targetPort: 8080
+  selector:
+    app: api2023-server
+  type: LoadBalancer
